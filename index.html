@@ -1,0 +1,976 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+          content="Invitación digital de boda">
+
+    <title>Juan & María | Nuestra Boda</title>
+
+
+    <!-- ==========================================
+         GOOGLE FONTS
+    =========================================== -->
+
+    <link rel="preconnect"
+          href="https://fonts.googleapis.com">
+
+    <link rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Montserrat:wght@300;400;500;600&family=Parisienne&display=swap"
+          rel="stylesheet">
+
+
+    <!-- ==========================================
+         FONT AWESOME
+    =========================================== -->
+
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+
+    <!-- ==========================================
+         CSS
+    =========================================== -->
+
+    <link rel="stylesheet"
+          href="style.css">
+
+</head>
+
+
+<body>
+
+
+<!-- ==========================================
+     PANTALLA DE BIENVENIDA
+=========================================== -->
+
+<div id="welcome-screen">
+
+    <div class="welcome-content">
+
+        <div class="rings-animation">
+
+            <i class="fa-solid fa-ring"></i>
+
+        </div>
+
+
+        <p class="welcome-small">
+
+            Tenemos el honor de invitarte a celebrar
+
+        </p>
+
+
+        <h1>
+
+            Nuestra Boda
+
+        </h1>
+
+
+        <div class="welcome-names">
+
+            Juan
+
+            <span>&</span>
+
+            María
+
+        </div>
+
+
+        <p class="welcome-date">
+
+            15 · DICIEMBRE · 2026
+
+        </p>
+
+
+        <button id="enter-button">
+
+            Abrir invitación
+
+            <i class="fa-solid fa-heart"></i>
+
+        </button>
+
+    </div>
+
+</div>
+
+
+
+<!-- ==========================================
+     MÚSICA
+=========================================== -->
+
+<audio id="background-music"
+       loop>
+
+    <!--
+        Puedes agregar aquí una URL de música
+        con permiso para utilizarla.
+
+        Ejemplo:
+
+        <source src="musica.mp3"
+                type="audio/mpeg">
+    -->
+
+</audio>
+
+
+<button id="music-button"
+        class="music-button">
+
+    <i class="fa-solid fa-music"></i>
+
+</button>
+
+
+
+<!-- ==========================================
+     DECORACIONES
+=========================================== -->
+
+<div class="floating-decoration decoration-left">
+
+    <span>🌿</span>
+
+    <span>🌸</span>
+
+</div>
+
+
+<div class="floating-decoration decoration-right">
+
+    <span>🌿</span>
+
+    <span>🌸</span>
+
+</div>
+
+
+
+<!-- ==========================================
+     HERO
+=========================================== -->
+
+<header class="hero"
+        id="hero">
+
+    <div class="hero-overlay"></div>
+
+
+    <div class="hero-content reveal">
+
+        <p class="hero-small">
+
+            ¡Nos casamos!
+
+        </p>
+
+
+        <h1>
+
+            Juan
+
+            <span>&</span>
+
+            María
+
+        </h1>
+
+
+        <div class="hero-line"></div>
+
+
+        <p>
+
+            15 de diciembre de 2026
+
+        </p>
+
+
+        <a href="#historia"
+           class="scroll-button">
+
+            Descubre nuestra historia
+
+            <i class="fa-solid fa-chevron-down"></i>
+
+        </a>
+
+    </div>
+
+</header>
+
+
+
+<!-- ==========================================
+     HISTORIA
+=========================================== -->
+
+<section id="historia"
+         class="section story-section">
+
+
+    <div class="container">
+
+
+        <div class="section-title reveal">
+
+
+            <p class="subtitle">
+
+                Nuestra historia
+
+            </p>
+
+
+            <h2>
+
+                El comienzo de una
+                nueva aventura
+
+            </h2>
+
+
+            <div class="title-line"></div>
+
+
+        </div>
+
+
+
+        <div class="story-content">
+
+
+            <div class="story-image reveal-left">
+
+
+                <img id="story-image"
+                     src=""
+                     alt="Juan y María">
+
+
+            </div>
+
+
+
+            <div class="story-text reveal-right">
+
+
+                <div class="heart-icon">
+
+                    <i class="fa-solid fa-heart"></i>
+
+                </div>
+
+
+                <p>
+
+                    Hay historias que comienzan
+                    de la manera más inesperada
+                    y terminan convirtiéndose en
+                    el capítulo más bonito de
+                    nuestras vidas.
+
+                </p>
+
+
+                <p>
+
+                    Después de compartir tantos
+                    momentos, sueños y aventuras,
+                    hemos decidido dar el siguiente
+                    paso y comenzar juntos una
+                    nueva etapa.
+
+                </p>
+
+
+                <p class="quote">
+
+                    "El amor no se trata de encontrar
+                    a alguien con quien vivir, sino de
+                    encontrar a alguien sin quien
+                    no puedes vivir."
+
+                </p>
+
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- ==========================================
+     CUENTA REGRESIVA
+=========================================== -->
+
+<section class="countdown-section"
+         id="countdown-section">
+
+
+    <div class="container countdown-container reveal">
+
+
+        <p class="subtitle white">
+
+            Falta muy poco
+
+        </p>
+
+
+        <h2>
+
+            Para nuestro gran día
+
+        </h2>
+
+
+        <div id="countdown"
+             class="countdown">
+
+
+            <div class="countdown-item">
+
+                <span id="days">
+
+                    00
+
+                </span>
+
+                <small>
+
+                    Días
+
+                </small>
+
+            </div>
+
+
+
+            <div class="countdown-item">
+
+                <span id="hours">
+
+                    00
+
+                </span>
+
+                <small>
+
+                    Horas
+
+                </small>
+
+            </div>
+
+
+
+            <div class="countdown-item">
+
+                <span id="minutes">
+
+                    00
+
+                </span>
+
+                <small>
+
+                    Minutos
+
+                </small>
+
+            </div>
+
+
+
+            <div class="countdown-item">
+
+                <span id="seconds">
+
+                    00
+
+                </span>
+
+                <small>
+
+                    Segundos
+
+                </small>
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- ==========================================
+     CEREMONIA Y RECEPCIÓN
+=========================================== -->
+
+<section class="section event-section">
+
+
+    <div class="container">
+
+
+        <div class="section-title reveal">
+
+
+            <p class="subtitle">
+
+                Celebremos juntos
+
+            </p>
+
+
+            <h2>
+
+                Nuestro gran día
+
+            </h2>
+
+
+            <div class="title-line"></div>
+
+
+        </div>
+
+
+
+        <div class="events-grid">
+
+
+            <div class="event-card reveal-left">
+
+
+                <div class="event-icon">
+
+                    <i class="fa-solid fa-church"></i>
+
+                </div>
+
+
+                <h3>
+
+                    Ceremonia
+
+                </h3>
+
+
+                <p class="event-date">
+
+                    Martes, 15 de diciembre
+
+                </p>
+
+
+                <p>
+
+                    4:00 PM
+
+                </p>
+
+
+                <p>
+
+                    Iglesia San Juan
+
+                </p>
+
+
+                <a href="https://www.google.com/maps"
+                   target="_blank"
+                   class="location-button">
+
+                    <i class="fa-solid fa-location-dot"></i>
+
+                    Ver ubicación
+
+                </a>
+
+            </div>
+
+
+
+            <div class="event-card reveal-right">
+
+
+                <div class="event-icon">
+
+                    <i class="fa-solid fa-champagne-glasses"></i>
+
+                </div>
+
+
+                <h3>
+
+                    Recepción
+
+                </h3>
+
+
+                <p class="event-date">
+
+                    Martes, 15 de diciembre
+
+                </p>
+
+
+                <p>
+
+                    7:00 PM
+
+                </p>
+
+
+                <p>
+
+                    Salón Los Jardines
+
+                </p>
+
+
+                <a href="https://www.google.com/maps"
+                   target="_blank"
+                   class="location-button">
+
+                    <i class="fa-solid fa-location-dot"></i>
+
+                    Ver ubicación
+
+                </a>
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- ==========================================
+     GALERÍA
+=========================================== -->
+
+<section class="section gallery-section">
+
+
+    <div class="container">
+
+
+        <div class="section-title reveal">
+
+
+            <p class="subtitle">
+
+                Nuestros recuerdos
+
+            </p>
+
+
+            <h2>
+
+                Momentos que llevamos
+                en el corazón
+
+            </h2>
+
+
+            <div class="title-line"></div>
+
+
+        </div>
+
+
+
+        <div class="gallery">
+
+
+            <div class="gallery-item gallery-large reveal-left">
+
+                <img id="gallery-image-1"
+                     src=""
+                     alt="Foto de los novios">
+
+            </div>
+
+
+
+            <div class="gallery-item reveal">
+
+                <img id="gallery-image-2"
+                     src=""
+                     alt="Foto de los novios">
+
+            </div>
+
+
+
+            <div class="gallery-item reveal-right">
+
+                <img id="gallery-image-3"
+                     src=""
+                     alt="Foto de los novios">
+
+            </div>
+
+
+
+            <div class="gallery-item reveal-left">
+
+                <img id="gallery-image-4"
+                     src=""
+                     alt="Foto de los novios">
+
+            </div>
+
+
+
+            <div class="gallery-item gallery-wide reveal">
+
+                <img id="gallery-image-5"
+                     src=""
+                     alt="Foto de los novios">
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- ==========================================
+     VESTIMENTA
+=========================================== -->
+
+<section class="dress-section">
+
+
+    <div class="container reveal">
+
+
+        <div class="dress-icon">
+
+            <i class="fa-solid fa-user-tie"></i>
+
+        </div>
+
+
+        <p class="subtitle">
+
+            Código de vestimenta
+
+        </p>
+
+
+        <h2>
+
+            Elegante
+
+        </h2>
+
+
+        <p>
+
+            Queremos compartir este día especial
+            contigo. Te invitamos a vestir de manera
+            elegante para celebrar juntos.
+
+        </p>
+
+
+    </div>
+
+</section>
+
+
+
+<!-- ==========================================
+     MESA DE REGALOS
+=========================================== -->
+
+<section class="section gifts-section">
+
+
+    <div class="container">
+
+
+        <div class="section-title reveal">
+
+
+            <p class="subtitle">
+
+                Un detalle especial
+
+            </p>
+
+
+            <h2>
+
+                Mesa de regalos
+
+            </h2>
+
+
+            <div class="title-line"></div>
+
+
+        </div>
+
+
+
+        <div class="gift-content reveal">
+
+
+            <div class="gift-icon">
+
+                <i class="fa-solid fa-gift"></i>
+
+            </div>
+
+
+            <p>
+
+                Tu presencia es nuestro mejor regalo.
+                Sin embargo, si deseas tener un detalle
+                con nosotros, hemos preparado las
+                siguientes opciones.
+
+            </p>
+
+
+
+            <div class="gift-options">
+
+
+                <div class="gift-card">
+
+                    <i class="fa-solid fa-house"></i>
+
+                    <h3>
+
+                        Lista de regalos
+
+                    </h3>
+
+                    <p>
+
+                        Tienda de regalos
+
+                    </p>
+
+                </div>
+
+
+
+                <div class="gift-card">
+
+                    <i class="fa-solid fa-money-bill-wave"></i>
+
+                    <h3>
+
+                        Sobre de regalo
+
+                    </h3>
+
+                    <p>
+
+                        Durante la recepción
+
+                    </p>
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- ==========================================
+     CONFIRMACIÓN RSVP
+=========================================== -->
+
+<section class="rsvp-section">
+
+
+    <div class="container reveal">
+
+
+        <div class="heart-animation">
+
+            <i class="fa-solid fa-heart"></i>
+
+        </div>
+
+
+        <p class="subtitle white">
+
+            Queremos contar contigo
+
+        </p>
+
+
+        <h2>
+
+            ¿Nos acompañas?
+
+        </h2>
+
+
+        <p>
+
+            Confirma tu asistencia antes del
+            1 de diciembre.
+
+        </p>
+
+
+        <a href="https://wa.me/50588888888?text=Hola%20Juan%20y%20Mar%C3%ADa,%20confirmo%20mi%20asistencia%20a%20su%20boda."
+           target="_blank"
+           class="whatsapp-button">
+
+            <i class="fa-brands fa-whatsapp"></i>
+
+            Confirmar asistencia
+
+        </a>
+
+    </div>
+
+</section>
+
+
+
+<!-- ==========================================
+     FOOTER
+=========================================== -->
+
+<footer class="footer">
+
+
+    <div class="footer-content reveal">
+
+
+        <div class="rings-animation">
+
+            <i class="fa-solid fa-ring"></i>
+
+        </div>
+
+
+        <p>
+
+            Gracias por formar parte
+            de nuestra historia.
+
+        </p>
+
+
+        <h2>
+
+            Juan
+
+            <span>&</span>
+
+            María
+
+        </h2>
+
+
+        <p class="footer-date">
+
+            15 · 12 · 2026
+
+        </p>
+
+
+        <div class="footer-hearts">
+
+            <i class="fa-solid fa-heart"></i>
+
+            <i class="fa-solid fa-heart"></i>
+
+            <i class="fa-solid fa-heart"></i>
+
+        </div>
+
+
+    </div>
+
+</footer>
+
+
+
+<!-- ==========================================
+     MODAL DE IMÁGENES
+=========================================== -->
+
+<div id="image-modal"
+     class="image-modal">
+
+
+    <span class="close-modal">
+
+        &times;
+
+    </span>
+
+
+    <img id="modal-image"
+         src=""
+         alt="Imagen ampliada">
+
+
+</div>
+
+
+
+<!-- ==========================================
+     JAVASCRIPT
+=========================================== -->
+
+<script src="script.js"></script>
+
+
+</body>
+
+</html>
