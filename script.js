@@ -311,9 +311,9 @@ musicButton.addEventListener(
 const weddingDate =
     new Date(
         2026,
-        11,
-        15,
-        16,
+        10,
+        14,
+        18,
         0,
         0
     ).getTime();
